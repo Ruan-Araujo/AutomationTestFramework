@@ -1,0 +1,468 @@
+2022-05-18 14:32:14.389 [TestNG-tests-3] INFO  test.ValidateNavigation - Instanciando page object: landing page
+2022-05-18 14:32:14.389 [TestNG-tests-2] INFO  test.ValidateTitleTest - Instanciando Page Object: LandingPage
+2022-05-18 14:32:14.389 [TestNG-tests-1] INFO  test.LoginTest - Instanciando page object: landing page
+2022-05-18 14:32:14.394 [TestNG-tests-1] INFO  test.LoginTest - Instanciando page object: login page
+2022-05-18 14:32:14.396 [TestNG-tests-1] INFO  test.LoginTest - Configurando browser para abrir com firefox
+2022-05-18 14:32:14.690 [TestNG-tests-3] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using Log4J2 as the default logging framework
+2022-05-18 14:32:14.692 [TestNG-tests-3] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+2022-05-18 14:32:14.692 [TestNG-tests-3] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+2022-05-18 14:32:14.695 [TestNG-tests-3] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@5e332c51
+2022-05-18 14:32:14.704 [TestNG-tests-3] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+2022-05-18 14:32:14.704 [TestNG-tests-3] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 8
+2022-05-18 14:32:14.704 [TestNG-tests-3] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2022-05-18 14:32:14.705 [TestNG-tests-3] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2022-05-18 14:32:14.705 [TestNG-tests-3] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2022-05-18 14:32:14.705 [TestNG-tests-3] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: available
+2022-05-18 14:32:14.705 [TestNG-tests-3] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2022-05-18 14:32:14.706 [TestNG-tests-3] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2022-05-18 14:32:14.706 [TestNG-tests-3] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+2022-05-18 14:32:14.706 [TestNG-tests-3] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2022-05-18 14:32:14.706 [TestNG-tests-3] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
+2022-05-18 14:32:14.706 [TestNG-tests-3] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2022-05-18 14:32:14.706 [TestNG-tests-3] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: 3659530240 bytes
+2022-05-18 14:32:14.706 [TestNG-tests-3] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2022-05-18 14:32:14.707 [TestNG-tests-3] DEBUG io.netty.util.internal.CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+2022-05-18 14:32:14.707 [TestNG-tests-3] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+2022-05-18 14:32:14.712 [TestNG-tests-3] DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2022-05-18 14:32:14.722 [TestNG-tests-3] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2022-05-18 14:32:14.722 [TestNG-tests-3] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2022-05-18 14:32:14.734 [TestNG-tests-3] DEBUG io.netty.handler.ssl.JdkSslContext - Default protocols (JDK): [TLSv1.2] 
+2022-05-18 14:32:14.735 [TestNG-tests-3] DEBUG io.netty.handler.ssl.JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2022-05-18 14:32:14.747 [TestNG-tests-3] DEBUG io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
+2022-05-18 14:32:14.751 [TestNG-tests-3] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2022-05-18 14:32:14.751 [TestNG-tests-3] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2022-05-18 14:32:14.753 [TestNG-tests-3] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@4cbabea2
+2022-05-18 14:32:14.753 [TestNG-tests-3] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@43152174
+2022-05-18 14:32:14.753 [TestNG-tests-3] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@5ac3d81a
+2022-05-18 14:32:14.753 [TestNG-tests-3] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@780fe1bb
+2022-05-18 14:32:14.753 [TestNG-tests-3] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@6f069922
+2022-05-18 14:32:14.753 [TestNG-tests-3] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@5720b37
+2022-05-18 14:32:14.754 [TestNG-tests-3] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@4135008b
+2022-05-18 14:32:14.754 [TestNG-tests-3] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@4630332f
+2022-05-18 14:32:14.754 [TestNG-tests-3] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@1da47d42
+2022-05-18 14:32:14.754 [TestNG-tests-3] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@81ae672
+2022-05-18 14:32:14.754 [TestNG-tests-3] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@61c29ea2
+2022-05-18 14:32:14.754 [TestNG-tests-3] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@26ac70fe
+2022-05-18 14:32:14.754 [TestNG-tests-3] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@18dc4704
+2022-05-18 14:32:14.754 [TestNG-tests-3] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@47aa0b1b
+2022-05-18 14:32:14.754 [TestNG-tests-3] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@32e8aac2
+2022-05-18 14:32:14.754 [TestNG-tests-3] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@770617e1
+2022-05-18 14:32:14.765 [TestNG-tests-3] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 16
+2022-05-18 14:32:14.765 [TestNG-tests-3] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 16
+2022-05-18 14:32:14.765 [TestNG-tests-3] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+2022-05-18 14:32:14.765 [TestNG-tests-3] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+2022-05-18 14:32:14.765 [TestNG-tests-3] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+2022-05-18 14:32:14.765 [TestNG-tests-3] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+2022-05-18 14:32:14.765 [TestNG-tests-3] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+2022-05-18 14:32:14.765 [TestNG-tests-3] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2022-05-18 14:32:14.765 [TestNG-tests-3] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+2022-05-18 14:32:14.765 [TestNG-tests-3] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2022-05-18 14:32:14.765 [TestNG-tests-3] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+2022-05-18 14:32:14.765 [TestNG-tests-3] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2022-05-18 14:32:14.771 [TestNG-tests-3] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+2022-05-18 14:32:14.771 [TestNG-tests-3] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+2022-05-18 14:32:14.771 [TestNG-tests-3] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2022-05-18 14:32:14.943 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 30422 (auto-detected)
+2022-05-18 14:32:14.944 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+2022-05-18 14:32:14.944 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+2022-05-18 14:32:14.945 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtilInitializations - Loopback interface: lo (lo, 0:0:0:0:0:0:0:1%lo)
+2022-05-18 14:32:14.946 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - /proc/sys/net/core/somaxconn: 4096
+2022-05-18 14:32:14.947 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 5c:e4:2a:ff:fe:f8:d9:46 (auto-detected)
+2022-05-18 14:32:14.989 [AsyncHttpClient-1-4] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+2022-05-18 14:32:14.989 [AsyncHttpClient-1-4] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+2022-05-18 14:32:14.989 [AsyncHttpClient-1-4] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@d67e690
+2022-05-18 14:32:15.006 [AsyncHttpClient-1-4] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2022-05-18 14:32:15.006 [AsyncHttpClient-1-4] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+2022-05-18 14:32:15.007 [AsyncHttpClient-1-4] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
+2022-05-18 14:32:15.007 [AsyncHttpClient-1-4] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
+2022-05-18 14:32:15.289 [AsyncHttpClient-1-2] DEBUG io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+2022-05-18 14:32:15.373 [TestNG-tests-1] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xaa0eb622917f779d
+2022-05-18 14:32:37.859 [TestNG-tests-1] INFO  test.LoginTest - Navegando para home page
+2022-05-18 14:32:38.041 [TestNG-tests-1] INFO  test.LoginTest - Modal fechado com sucesso
+2022-05-18 14:32:38.561 [TestNG-tests-2] INFO  test.ValidateTitleTest - Navegando para home page
+2022-05-18 14:32:40.995 [TestNG-tests-1] INFO  test.LoginTest - Indo pra página de login
+2022-05-18 14:32:41.087 [TestNG-tests-1] INFO  test.LoginTest - Inserindo e-mail
+2022-05-18 14:32:41.162 [TestNG-tests-1] INFO  test.LoginTest - Inserindo senha
+2022-05-18 14:32:41.163 [TestNG-tests-1] INFO  test.LoginTest - restricted user
+2022-05-18 14:32:41.663 [TestNG-tests-1] INFO  test.LoginTest - Apertando no botão de login
+2022-05-18 14:32:58.138 [TestNG-tests-1] INFO  test.LoginTest - Navegando para home page
+2022-05-18 14:32:58.680 [TestNG-tests-1] INFO  test.LoginTest - Indo pra página de login
+2022-05-18 14:32:58.770 [TestNG-tests-1] INFO  test.LoginTest - Inserindo e-mail
+2022-05-18 14:32:58.845 [TestNG-tests-1] INFO  test.LoginTest - Inserindo senha
+2022-05-18 14:32:58.845 [TestNG-tests-1] INFO  test.LoginTest - restrcted user
+2022-05-18 14:32:59.477 [TestNG-tests-1] INFO  test.LoginTest - Apertando no botão de login
+2022-05-18 14:33:32.745 [TestNG-tests-3] INFO  test.ValidateNavigation - Instanciando page object: landing page
+2022-05-18 14:33:32.745 [TestNG-tests-1] INFO  test.LoginTest - Instanciando page object: landing page
+2022-05-18 14:33:32.745 [TestNG-tests-2] INFO  test.ValidateTitleTest - Instanciando Page Object: LandingPage
+2022-05-18 14:33:32.748 [TestNG-tests-1] INFO  test.LoginTest - Instanciando page object: login page
+2022-05-18 14:33:32.750 [TestNG-tests-1] INFO  test.LoginTest - Configurando browser para abrir com firefox
+2022-05-18 14:33:33.968 [TestNG-tests-3] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using Log4J2 as the default logging framework
+2022-05-18 14:33:33.970 [TestNG-tests-3] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+2022-05-18 14:33:33.971 [TestNG-tests-3] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+2022-05-18 14:33:33.972 [TestNG-tests-3] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@5474e180
+2022-05-18 14:33:33.981 [TestNG-tests-3] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+2022-05-18 14:33:33.981 [TestNG-tests-3] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 8
+2022-05-18 14:33:33.982 [TestNG-tests-3] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2022-05-18 14:33:33.982 [TestNG-tests-3] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2022-05-18 14:33:33.982 [TestNG-tests-3] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2022-05-18 14:33:33.983 [TestNG-tests-3] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: available
+2022-05-18 14:33:33.983 [TestNG-tests-3] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2022-05-18 14:33:33.983 [TestNG-tests-3] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2022-05-18 14:33:33.983 [TestNG-tests-3] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+2022-05-18 14:33:33.983 [TestNG-tests-3] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2022-05-18 14:33:33.983 [TestNG-tests-3] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
+2022-05-18 14:33:33.983 [TestNG-tests-3] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2022-05-18 14:33:33.984 [TestNG-tests-3] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: 3659530240 bytes
+2022-05-18 14:33:33.984 [TestNG-tests-3] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2022-05-18 14:33:33.984 [TestNG-tests-3] DEBUG io.netty.util.internal.CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+2022-05-18 14:33:33.984 [TestNG-tests-3] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+2022-05-18 14:33:33.989 [TestNG-tests-3] DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2022-05-18 14:33:33.998 [TestNG-tests-3] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2022-05-18 14:33:33.998 [TestNG-tests-3] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2022-05-18 14:33:34.005 [TestNG-tests-3] DEBUG io.netty.handler.ssl.JdkSslContext - Default protocols (JDK): [TLSv1.2] 
+2022-05-18 14:33:34.005 [TestNG-tests-3] DEBUG io.netty.handler.ssl.JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2022-05-18 14:33:34.018 [TestNG-tests-3] DEBUG io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
+2022-05-18 14:33:34.023 [TestNG-tests-3] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2022-05-18 14:33:34.023 [TestNG-tests-3] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2022-05-18 14:33:34.025 [TestNG-tests-3] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@52290df2
+2022-05-18 14:33:34.025 [TestNG-tests-3] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@1a4545ca
+2022-05-18 14:33:34.025 [TestNG-tests-3] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@998ded
+2022-05-18 14:33:34.025 [TestNG-tests-3] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@69569667
+2022-05-18 14:33:34.025 [TestNG-tests-3] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@2016fd9
+2022-05-18 14:33:34.025 [TestNG-tests-3] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@32da1146
+2022-05-18 14:33:34.025 [TestNG-tests-3] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@7ee01415
+2022-05-18 14:33:34.025 [TestNG-tests-3] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@23d85000
+2022-05-18 14:33:34.025 [TestNG-tests-3] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@2aae9c05
+2022-05-18 14:33:34.026 [TestNG-tests-3] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@489cf837
+2022-05-18 14:33:34.026 [TestNG-tests-3] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@36a21d8d
+2022-05-18 14:33:34.026 [TestNG-tests-3] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@579b0309
+2022-05-18 14:33:34.026 [TestNG-tests-3] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@90be34b
+2022-05-18 14:33:34.026 [TestNG-tests-3] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@2679ff1d
+2022-05-18 14:33:34.026 [TestNG-tests-3] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@91c02a
+2022-05-18 14:33:34.026 [TestNG-tests-3] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@f1d187a
+2022-05-18 14:33:34.036 [TestNG-tests-3] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 16
+2022-05-18 14:33:34.036 [TestNG-tests-3] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 16
+2022-05-18 14:33:34.037 [TestNG-tests-3] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+2022-05-18 14:33:34.037 [TestNG-tests-3] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+2022-05-18 14:33:34.037 [TestNG-tests-3] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+2022-05-18 14:33:34.037 [TestNG-tests-3] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+2022-05-18 14:33:34.037 [TestNG-tests-3] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+2022-05-18 14:33:34.037 [TestNG-tests-3] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2022-05-18 14:33:34.037 [TestNG-tests-3] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+2022-05-18 14:33:34.037 [TestNG-tests-3] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2022-05-18 14:33:34.037 [TestNG-tests-3] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+2022-05-18 14:33:34.037 [TestNG-tests-3] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2022-05-18 14:33:34.043 [TestNG-tests-3] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+2022-05-18 14:33:34.043 [TestNG-tests-3] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+2022-05-18 14:33:34.043 [TestNG-tests-3] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2022-05-18 14:33:34.201 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 31183 (auto-detected)
+2022-05-18 14:33:34.202 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+2022-05-18 14:33:34.203 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+2022-05-18 14:33:34.204 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtilInitializations - Loopback interface: lo (lo, 0:0:0:0:0:0:0:1%lo)
+2022-05-18 14:33:34.204 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - /proc/sys/net/core/somaxconn: 4096
+2022-05-18 14:33:34.205 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 5c:e4:2a:ff:fe:f8:d9:46 (auto-detected)
+2022-05-18 14:33:34.232 [AsyncHttpClient-1-4] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+2022-05-18 14:33:34.232 [AsyncHttpClient-1-4] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+2022-05-18 14:33:34.232 [AsyncHttpClient-1-4] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@3d9197f2
+2022-05-18 14:33:34.244 [AsyncHttpClient-1-4] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2022-05-18 14:33:34.244 [AsyncHttpClient-1-4] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+2022-05-18 14:33:34.244 [AsyncHttpClient-1-4] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
+2022-05-18 14:33:34.244 [AsyncHttpClient-1-4] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
+2022-05-18 14:33:34.543 [AsyncHttpClient-1-4] DEBUG io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+2022-05-18 14:33:34.661 [TestNG-tests-3] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x1633032ec952727d
+2022-05-18 14:33:56.287 [TestNG-tests-1] INFO  test.LoginTest - Navegando para home page
+2022-05-18 14:33:56.341 [TestNG-tests-3] INFO  test.ValidateNavigation - Navengando para home page
+2022-05-18 14:33:56.377 [TestNG-tests-3] INFO  test.ValidateNavigation - Título validado com sucesso!
+2022-05-18 14:33:56.408 [TestNG-tests-3] INFO  test.ValidateNavigation - NavBar validada com sucesso!
+2022-05-18 14:33:56.443 [TestNG-tests-1] INFO  test.LoginTest - Modal fechado com sucesso
+2022-05-18 14:33:56.958 [TestNG-tests-2] INFO  test.ValidateTitleTest - Navegando para home page
+2022-05-18 14:33:59.030 [TestNG-tests-1] INFO  test.LoginTest - Indo pra página de login
+2022-05-18 14:33:59.119 [TestNG-tests-1] INFO  test.LoginTest - Inserindo e-mail
+2022-05-18 14:33:59.198 [TestNG-tests-1] INFO  test.LoginTest - Inserindo senha
+2022-05-18 14:33:59.198 [TestNG-tests-1] INFO  test.LoginTest - restricted user
+2022-05-18 14:33:59.676 [TestNG-tests-1] INFO  test.LoginTest - Apertando no botão de login
+2022-05-18 14:34:10.513 [TestNG-tests-1] INFO  test.LoginTest - Navegando para home page
+2022-05-18 14:34:11.062 [TestNG-tests-1] INFO  test.LoginTest - Indo pra página de login
+2022-05-18 14:34:11.147 [TestNG-tests-1] INFO  test.LoginTest - Inserindo e-mail
+2022-05-18 14:34:11.227 [TestNG-tests-1] INFO  test.LoginTest - Inserindo senha
+2022-05-18 14:34:11.227 [TestNG-tests-1] INFO  test.LoginTest - restrcted user
+2022-05-18 14:34:11.718 [TestNG-tests-1] INFO  test.LoginTest - Apertando no botão de login
+2022-05-18 14:35:29.405 [TestNG-tests-3] INFO  test.ValidateNavigation - Instanciando page object: landing page
+2022-05-18 14:35:29.405 [TestNG-tests-1] INFO  test.LoginTest - Instanciando page object: landing page
+2022-05-18 14:35:29.405 [TestNG-tests-2] INFO  test.ValidateTitleTest - Instanciando Page Object: LandingPage
+2022-05-18 14:35:29.407 [TestNG-tests-1] INFO  test.LoginTest - Instanciando page object: login page
+2022-05-18 14:35:29.409 [TestNG-tests-1] INFO  test.LoginTest - Configurando browser para abrir com firefox
+2022-05-18 14:35:29.735 [TestNG-tests-3] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using Log4J2 as the default logging framework
+2022-05-18 14:35:29.737 [TestNG-tests-3] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+2022-05-18 14:35:29.737 [TestNG-tests-3] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+2022-05-18 14:35:29.740 [TestNG-tests-3] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@7f2ee7ba
+2022-05-18 14:35:29.748 [TestNG-tests-3] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+2022-05-18 14:35:29.748 [TestNG-tests-3] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 8
+2022-05-18 14:35:29.748 [TestNG-tests-3] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2022-05-18 14:35:29.749 [TestNG-tests-3] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2022-05-18 14:35:29.749 [TestNG-tests-3] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2022-05-18 14:35:29.749 [TestNG-tests-3] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: available
+2022-05-18 14:35:29.750 [TestNG-tests-3] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2022-05-18 14:35:29.750 [TestNG-tests-3] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2022-05-18 14:35:29.750 [TestNG-tests-3] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+2022-05-18 14:35:29.750 [TestNG-tests-3] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2022-05-18 14:35:29.750 [TestNG-tests-3] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
+2022-05-18 14:35:29.750 [TestNG-tests-3] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2022-05-18 14:35:29.750 [TestNG-tests-3] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: 3659530240 bytes
+2022-05-18 14:35:29.750 [TestNG-tests-3] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2022-05-18 14:35:29.751 [TestNG-tests-3] DEBUG io.netty.util.internal.CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+2022-05-18 14:35:29.751 [TestNG-tests-3] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+2022-05-18 14:35:29.755 [TestNG-tests-3] DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2022-05-18 14:35:29.764 [TestNG-tests-3] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2022-05-18 14:35:29.764 [TestNG-tests-3] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2022-05-18 14:35:29.776 [TestNG-tests-3] DEBUG io.netty.handler.ssl.JdkSslContext - Default protocols (JDK): [TLSv1.2] 
+2022-05-18 14:35:29.777 [TestNG-tests-3] DEBUG io.netty.handler.ssl.JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2022-05-18 14:35:29.789 [TestNG-tests-3] DEBUG io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
+2022-05-18 14:35:29.793 [TestNG-tests-3] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2022-05-18 14:35:29.793 [TestNG-tests-3] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2022-05-18 14:35:29.795 [TestNG-tests-3] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@54e4530f
+2022-05-18 14:35:29.795 [TestNG-tests-3] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@389137dd
+2022-05-18 14:35:29.795 [TestNG-tests-3] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@4e9b67eb
+2022-05-18 14:35:29.795 [TestNG-tests-3] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@5c9c1e56
+2022-05-18 14:35:29.795 [TestNG-tests-3] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@1ba87d55
+2022-05-18 14:35:29.795 [TestNG-tests-3] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@2a369e22
+2022-05-18 14:35:29.796 [TestNG-tests-3] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@3f0700b0
+2022-05-18 14:35:29.796 [TestNG-tests-3] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@3d5d7a8
+2022-05-18 14:35:29.796 [TestNG-tests-3] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@5b4f4052
+2022-05-18 14:35:29.796 [TestNG-tests-3] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@45161297
+2022-05-18 14:35:29.796 [TestNG-tests-3] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@42939805
+2022-05-18 14:35:29.796 [TestNG-tests-3] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@6f567f68
+2022-05-18 14:35:29.796 [TestNG-tests-3] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@4ebaef00
+2022-05-18 14:35:29.796 [TestNG-tests-3] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@3bcddeea
+2022-05-18 14:35:29.796 [TestNG-tests-3] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@65c03a26
+2022-05-18 14:35:29.796 [TestNG-tests-3] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@39b1a4c9
+2022-05-18 14:35:29.808 [TestNG-tests-3] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 16
+2022-05-18 14:35:29.808 [TestNG-tests-3] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 16
+2022-05-18 14:35:29.808 [TestNG-tests-3] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+2022-05-18 14:35:29.808 [TestNG-tests-3] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+2022-05-18 14:35:29.808 [TestNG-tests-3] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+2022-05-18 14:35:29.808 [TestNG-tests-3] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+2022-05-18 14:35:29.808 [TestNG-tests-3] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+2022-05-18 14:35:29.808 [TestNG-tests-3] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2022-05-18 14:35:29.808 [TestNG-tests-3] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+2022-05-18 14:35:29.808 [TestNG-tests-3] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2022-05-18 14:35:29.808 [TestNG-tests-3] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+2022-05-18 14:35:29.808 [TestNG-tests-3] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2022-05-18 14:35:29.814 [TestNG-tests-3] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+2022-05-18 14:35:29.814 [TestNG-tests-3] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+2022-05-18 14:35:29.814 [TestNG-tests-3] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2022-05-18 14:35:29.972 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 32029 (auto-detected)
+2022-05-18 14:35:29.973 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+2022-05-18 14:35:29.973 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+2022-05-18 14:35:29.974 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtilInitializations - Loopback interface: lo (lo, 0:0:0:0:0:0:0:1%lo)
+2022-05-18 14:35:29.975 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - /proc/sys/net/core/somaxconn: 4096
+2022-05-18 14:35:29.976 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 5c:e4:2a:ff:fe:f8:d9:46 (auto-detected)
+2022-05-18 14:35:30.018 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+2022-05-18 14:35:30.019 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+2022-05-18 14:35:30.019 [AsyncHttpClient-1-2] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@3205a31
+2022-05-18 14:35:30.034 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2022-05-18 14:35:30.034 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+2022-05-18 14:35:30.034 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
+2022-05-18 14:35:30.034 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
+2022-05-18 14:35:30.331 [AsyncHttpClient-1-2] DEBUG io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+2022-05-18 14:35:30.424 [TestNG-tests-2] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x42a0f00cc9fc0f88
+2022-05-18 14:35:52.427 [TestNG-tests-1] INFO  test.LoginTest - Navegando para home page
+2022-05-18 14:35:52.429 [TestNG-tests-2] INFO  test.ValidateTitleTest - Navegando para home page
+2022-05-18 14:35:52.641 [TestNG-tests-1] INFO  test.LoginTest - Modal fechado com sucesso
+2022-05-18 14:35:55.574 [TestNG-tests-1] INFO  test.LoginTest - Indo pra página de login
+2022-05-18 14:35:55.655 [TestNG-tests-1] INFO  test.LoginTest - Inserindo e-mail
+2022-05-18 14:35:55.724 [TestNG-tests-1] INFO  test.LoginTest - Inserindo senha
+2022-05-18 14:35:55.724 [TestNG-tests-1] INFO  test.LoginTest - restricted user
+2022-05-18 14:35:56.201 [TestNG-tests-1] INFO  test.LoginTest - Apertando no botão de login
+2022-05-18 14:36:07.247 [TestNG-tests-1] INFO  test.LoginTest - Navegando para home page
+2022-05-18 14:36:07.813 [TestNG-tests-1] INFO  test.LoginTest - Indo pra página de login
+2022-05-18 14:36:07.898 [TestNG-tests-1] INFO  test.LoginTest - Inserindo e-mail
+2022-05-18 14:36:07.971 [TestNG-tests-1] INFO  test.LoginTest - Inserindo senha
+2022-05-18 14:36:07.971 [TestNG-tests-1] INFO  test.LoginTest - restrcted user
+2022-05-18 14:36:08.492 [TestNG-tests-1] INFO  test.LoginTest - Apertando no botão de login
+2022-05-18 14:36:08.630 [AsyncHttpClient-1-10] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+2022-05-18 16:02:11.593 [main] INFO  test.LoginTest - Instanciando page object: landing page
+2022-05-18 16:02:11.595 [main] INFO  test.LoginTest - Instanciando page object: login page
+2022-05-18 16:02:11.597 [main] INFO  test.LoginTest - Configurando browser para abrir com firefox
+2022-05-18 16:02:12.888 [main] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using Log4J2 as the default logging framework
+2022-05-18 16:02:12.891 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+2022-05-18 16:02:12.891 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+2022-05-18 16:02:12.893 [main] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@46ab18da
+2022-05-18 16:02:12.902 [main] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+2022-05-18 16:02:12.902 [main] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 8
+2022-05-18 16:02:12.902 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2022-05-18 16:02:12.903 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2022-05-18 16:02:12.903 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2022-05-18 16:02:12.903 [main] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: available
+2022-05-18 16:02:12.903 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2022-05-18 16:02:12.904 [main] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2022-05-18 16:02:12.904 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+2022-05-18 16:02:12.904 [main] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2022-05-18 16:02:12.904 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
+2022-05-18 16:02:12.904 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2022-05-18 16:02:12.904 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: 3659530240 bytes
+2022-05-18 16:02:12.904 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2022-05-18 16:02:12.905 [main] DEBUG io.netty.util.internal.CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+2022-05-18 16:02:12.905 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+2022-05-18 16:02:12.909 [main] DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2022-05-18 16:02:12.918 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2022-05-18 16:02:12.918 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2022-05-18 16:02:12.925 [main] DEBUG io.netty.handler.ssl.JdkSslContext - Default protocols (JDK): [TLSv1.2] 
+2022-05-18 16:02:12.925 [main] DEBUG io.netty.handler.ssl.JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2022-05-18 16:02:12.937 [main] DEBUG io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
+2022-05-18 16:02:12.942 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2022-05-18 16:02:12.942 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2022-05-18 16:02:12.943 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@1556f2dd
+2022-05-18 16:02:12.944 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@49bd54f7
+2022-05-18 16:02:12.944 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@6b5f8707
+2022-05-18 16:02:12.944 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@772485dd
+2022-05-18 16:02:12.944 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@5a12c728
+2022-05-18 16:02:12.944 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@79ab3a71
+2022-05-18 16:02:12.944 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@6e5bfdfc
+2022-05-18 16:02:12.944 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@3d829787
+2022-05-18 16:02:12.944 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@71652c98
+2022-05-18 16:02:12.944 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@51bde877
+2022-05-18 16:02:12.944 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@60b85ba1
+2022-05-18 16:02:12.944 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@492fc69e
+2022-05-18 16:02:12.945 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@117632cf
+2022-05-18 16:02:12.945 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@2fb68ec6
+2022-05-18 16:02:12.945 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@d71adc2
+2022-05-18 16:02:12.945 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@3add81c4
+2022-05-18 16:02:12.960 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 16
+2022-05-18 16:02:12.961 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 16
+2022-05-18 16:02:12.961 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+2022-05-18 16:02:12.961 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+2022-05-18 16:02:12.961 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+2022-05-18 16:02:12.961 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+2022-05-18 16:02:12.961 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+2022-05-18 16:02:12.961 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2022-05-18 16:02:12.961 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+2022-05-18 16:02:12.961 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2022-05-18 16:02:12.961 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+2022-05-18 16:02:12.961 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2022-05-18 16:02:12.967 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+2022-05-18 16:02:12.967 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+2022-05-18 16:02:12.967 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2022-05-18 16:02:13.109 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 38721 (auto-detected)
+2022-05-18 16:02:13.110 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+2022-05-18 16:02:13.110 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+2022-05-18 16:02:13.111 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtilInitializations - Loopback interface: lo (lo, 0:0:0:0:0:0:0:1%lo)
+2022-05-18 16:02:13.112 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - /proc/sys/net/core/somaxconn: 4096
+2022-05-18 16:02:13.113 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 5c:e4:2a:ff:fe:f8:d9:46 (auto-detected)
+2022-05-18 16:02:13.142 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+2022-05-18 16:02:13.142 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+2022-05-18 16:02:13.142 [AsyncHttpClient-1-2] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@413978ed
+2022-05-18 16:02:13.154 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2022-05-18 16:02:13.154 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+2022-05-18 16:02:13.154 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
+2022-05-18 16:02:13.154 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
+2022-05-18 16:02:15.216 [AsyncHttpClient-1-2] DEBUG io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+2022-05-18 16:02:49.196 [main] INFO  test.LoginTest - Navegando para home page
+2022-05-18 16:02:53.467 [main] INFO  test.LoginTest - Indo pra página de login
+2022-05-18 16:02:53.515 [main] INFO  test.LoginTest - Inserindo e-mail
+2022-05-18 16:02:53.548 [main] INFO  test.LoginTest - Inserindo senha
+2022-05-18 16:02:53.548 [main] INFO  test.LoginTest - restrcted user
+2022-05-18 16:02:53.584 [main] INFO  test.LoginTest - Apertando no botão de login
+2022-05-18 16:02:53.592 [main] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x485ed2c0b371db37
+2022-05-18 16:02:54.226 [main] INFO  test.ValidateTitleTest - Instanciando Page Object: LandingPage
+2022-05-18 16:03:17.120 [main] INFO  test.ValidateTitleTest - Navegando para home page
+2022-05-18 16:03:17.468 [main] INFO  test.ValidateNavigation - Instanciando page object: landing page
+2022-05-18 16:03:33.988 [main] INFO  test.ValidateNavigation - Navengando para home page
+2022-05-18 16:03:34.011 [main] INFO  test.ValidateNavigation - Título validado com sucesso!
+2022-05-18 16:03:34.031 [main] INFO  test.ValidateNavigation - NavBar validada com sucesso!
+2022-05-18 16:05:53.584 [main] INFO  test.LoginTest - Instanciando page object: landing page
+2022-05-18 16:05:53.585 [main] INFO  test.LoginTest - Instanciando page object: login page
+2022-05-18 16:05:53.587 [main] INFO  test.LoginTest - Configurando browser para abrir com firefox
+2022-05-18 16:05:53.833 [main] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using Log4J2 as the default logging framework
+2022-05-18 16:05:53.835 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+2022-05-18 16:05:53.836 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+2022-05-18 16:05:53.838 [main] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@532a02d9
+2022-05-18 16:05:53.846 [main] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+2022-05-18 16:05:53.846 [main] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 8
+2022-05-18 16:05:53.846 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2022-05-18 16:05:53.847 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2022-05-18 16:05:53.847 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2022-05-18 16:05:53.847 [main] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: available
+2022-05-18 16:05:53.848 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2022-05-18 16:05:53.848 [main] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2022-05-18 16:05:53.848 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+2022-05-18 16:05:53.848 [main] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2022-05-18 16:05:53.848 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
+2022-05-18 16:05:53.848 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2022-05-18 16:05:53.848 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: 3659530240 bytes
+2022-05-18 16:05:53.849 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2022-05-18 16:05:53.849 [main] DEBUG io.netty.util.internal.CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+2022-05-18 16:05:53.849 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+2022-05-18 16:05:53.853 [main] DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2022-05-18 16:05:53.862 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2022-05-18 16:05:53.863 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2022-05-18 16:05:53.873 [main] DEBUG io.netty.handler.ssl.JdkSslContext - Default protocols (JDK): [TLSv1.2] 
+2022-05-18 16:05:53.873 [main] DEBUG io.netty.handler.ssl.JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2022-05-18 16:05:53.885 [main] DEBUG io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
+2022-05-18 16:05:53.888 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2022-05-18 16:05:53.889 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2022-05-18 16:05:53.890 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@3dddbe65
+2022-05-18 16:05:53.890 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@66d23e4a
+2022-05-18 16:05:53.890 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@36ac8a63
+2022-05-18 16:05:53.890 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@4d9d1b69
+2022-05-18 16:05:53.891 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@52c8295b
+2022-05-18 16:05:53.891 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@251f7d26
+2022-05-18 16:05:53.891 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@77b21474
+2022-05-18 16:05:53.891 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@52d10fb8
+2022-05-18 16:05:53.891 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@41c07648
+2022-05-18 16:05:53.891 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@1fe8d51b
+2022-05-18 16:05:53.891 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@781e7326
+2022-05-18 16:05:53.891 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@22680f52
+2022-05-18 16:05:53.891 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@60d84f61
+2022-05-18 16:05:53.891 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@39c11e6c
+2022-05-18 16:05:53.891 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@324dcd31
+2022-05-18 16:05:53.892 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@503d56b5
+2022-05-18 16:05:53.902 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 16
+2022-05-18 16:05:53.902 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 16
+2022-05-18 16:05:53.902 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+2022-05-18 16:05:53.902 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+2022-05-18 16:05:53.902 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+2022-05-18 16:05:53.902 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+2022-05-18 16:05:53.902 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+2022-05-18 16:05:53.902 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2022-05-18 16:05:53.902 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+2022-05-18 16:05:53.902 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2022-05-18 16:05:53.902 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+2022-05-18 16:05:53.902 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2022-05-18 16:05:53.908 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+2022-05-18 16:05:53.908 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+2022-05-18 16:05:53.908 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2022-05-18 16:05:54.051 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 40125 (auto-detected)
+2022-05-18 16:05:54.052 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+2022-05-18 16:05:54.052 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+2022-05-18 16:05:54.053 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtilInitializations - Loopback interface: lo (lo, 0:0:0:0:0:0:0:1%lo)
+2022-05-18 16:05:54.054 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - /proc/sys/net/core/somaxconn: 4096
+2022-05-18 16:05:54.054 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 5c:e4:2a:ff:fe:f8:d9:46 (auto-detected)
+2022-05-18 16:05:54.083 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+2022-05-18 16:05:54.083 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+2022-05-18 16:05:54.083 [AsyncHttpClient-1-2] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@7e7b522f
+2022-05-18 16:05:54.094 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2022-05-18 16:05:54.094 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+2022-05-18 16:05:54.094 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
+2022-05-18 16:05:54.094 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
+2022-05-18 16:05:56.033 [AsyncHttpClient-1-2] DEBUG io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+2022-05-18 16:06:19.163 [main] INFO  test.LoginTest - Navegando para home page
+2022-05-18 16:06:19.488 [main] INFO  test.LoginTest - Modal fechado com sucesso
+2022-05-18 16:06:23.804 [main] INFO  test.LoginTest - Indo pra página de login
+2022-05-18 16:06:23.855 [main] INFO  test.LoginTest - Inserindo e-mail
+2022-05-18 16:06:23.886 [main] INFO  test.LoginTest - Inserindo senha
+2022-05-18 16:06:23.887 [main] INFO  test.LoginTest - restricted user
+2022-05-18 16:06:23.920 [main] INFO  test.LoginTest - Apertando no botão de login
+2022-05-18 16:06:27.486 [main] INFO  test.LoginTest - Navegando para home page
+2022-05-18 16:06:29.445 [main] INFO  test.LoginTest - Indo pra página de login
+2022-05-18 16:06:29.484 [main] INFO  test.LoginTest - Inserindo e-mail
+2022-05-18 16:06:29.513 [main] INFO  test.LoginTest - Inserindo senha
+2022-05-18 16:06:29.513 [main] INFO  test.LoginTest - restrcted user
+2022-05-18 16:06:29.543 [main] INFO  test.LoginTest - Apertando no botão de login
+2022-05-18 16:06:29.551 [main] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x79a32d3bb6bcc360
+2022-05-18 16:06:31.525 [main] INFO  test.ValidateTitleTest - Instanciando Page Object: LandingPage
+2022-05-18 16:06:54.914 [main] INFO  test.ValidateTitleTest - Navegando para home page
+2022-05-18 16:06:55.267 [main] INFO  test.ValidateNavigation - Instanciando page object: landing page
+2022-05-18 16:07:12.008 [main] INFO  test.ValidateNavigation - Navengando para home page
+2022-05-18 16:07:12.029 [main] INFO  test.ValidateNavigation - Título validado com sucesso!
+2022-05-18 16:07:12.047 [main] INFO  test.ValidateNavigation - NavBar validada com sucesso!
