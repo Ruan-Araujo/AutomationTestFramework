@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [All Test Suite]">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [All Test Suite]" parallel="tests">
   <listeners>
     <listener class-name="listeners.Listeners"/>
   </listeners>
-  <test name="ValidateTitle(failed)">
+  <test name="CriarConta(failed)" parallel="tests">
+    <classes>
+      <class name="test.CriarContaTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="realizarCadastroTest"/>
+        </methods>
+      </class> <!-- test.CriarContaTest -->
+    </classes>
+  </test> <!-- CriarConta(failed) -->
+  <test name="ValidarTitulo(failed)" parallel="tests">
     <classes>
       <class name="test.ValidateTitleTest">
         <methods>
@@ -13,5 +23,26 @@
         </methods>
       </class> <!-- test.ValidateTitleTest -->
     </classes>
-  </test> <!-- ValidateTitle(failed) -->
+  </test> <!-- ValidarTitulo(failed) -->
+  <test name="RealizarCompra(failed)" parallel="tests">
+    <classes>
+      <class name="test.RealizarCompraTest">
+        <methods>
+          <include name="fazerCompra"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- test.RealizarCompraTest -->
+    </classes>
+  </test> <!-- RealizarCompra(failed) -->
+  <test name="Login(failed)" parallel="tests">
+    <classes>
+      <class name="test.LoginTest">
+        <methods>
+          <include name="login" invocation-numbers="1"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- test.LoginTest -->
+    </classes>
+  </test> <!-- Login(failed) -->
 </suite> <!-- Failed suite [All Test Suite] -->

@@ -1,30 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite" >
+<suite name="All Test Suite" parallel="tests">
+
     <listeners>
         <listener class-name="listeners.Listeners"/>
     </listeners>
-    <test name="LoginTest">
+
+    <test verbose="2" preserve-order="true" name="CriarConta">
         <classes>
-        <class name="test.LoginTest">
-            <methods>
-                <include name="login"/>
-            </methods>
-        </class>
-        </classes>
-    </test>
-    <test name="ValidateTitle">
-        <classes>
-            <class name="test.ValidateTitleTest">
-                <methods><include name="valida
-                rLogin"/>
+            <class name="test.CriarContaTest">
+                <methods>
+                    <include name="realizarCadastroTest"/>
                 </methods>
             </class>
         </classes>
     </test>
-    <test name="ValidateNavigation">
+
+    <test name="Login">
+        <classes>
+            <class name="test.LoginTest">
+                <methods>
+                    <include name="login"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="RealizarCompra">
+        <classes>
+            <class name="test.RealizarCompraTest">
+                <methods>
+                    <include name="fazerCompra"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="ValidarNavegacao">
         <classes>
             <class name="test.ValidateNavigation">
+                <methods>
+                    <include name="validarLogin"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="ValidarTitulo">
+        <classes>
+            <class name="test.ValidateTitleTest">
                 <methods>
                     <include name="validarLogin"/>
                 </methods>

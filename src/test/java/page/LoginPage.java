@@ -1,25 +1,35 @@
 package page;
 
 import com.codeborne.selenide.SelenideElement;
-import org.openqa.selenium.By;
 
 import static com.codeborne.selenide.Selenide.$;
 
 public class LoginPage {
 
-    private final SelenideElement   emailAdd = $("#user_email"),
-                                    password = $("#user_password"),
-                                    btnLogin = $(By.name("commit"));
+    private final SelenideElement emailCadastrarConta = $("#email_create");
+    private final SelenideElement btnCriarConta = $("#SubmitCreate");
 
-    public SelenideElement getEmailAdd() {
-        return emailAdd;
+    private final SelenideElement emailLogin = $("#email");
+    private final SelenideElement senhaLogin = $("#passwd");
+    private final SelenideElement btnLogin = $("#SubmitLogin");
+
+    public SelenideElement getEmailLogin() {
+        return emailLogin;
     }
 
-    public SelenideElement getPassword() {
-        return password;
+    public SelenideElement getSenhaLogin() {
+        return senhaLogin;
     }
 
     public SelenideElement getBtnLogin() {
         return btnLogin;
+    }
+
+    public SelenideElement getEmailCadastrarConta() {
+        return emailCadastrarConta;
+    }
+
+    public SelenideElement getBtnCriarConta() {
+        return btnCriarConta;
     }
 }

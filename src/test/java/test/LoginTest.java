@@ -1,26 +1,30 @@
 package test;
 
+import base.Base;
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.Selenide;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+import page.ForgotPasswordPage;
 import page.LandingPage;
-import page.LoginPage;
+import page.EntrarPage;
 
 import java.io.IOException;
 
 import static com.codeborne.selenide.Selenide.open;
-import static com.codeborne.selenide.Selenide.refresh;
 
 public class LoginTest extends Base {
 
     /*Todo: Adding logs, Generating html reports, Screenshots on failure, Jenkins*/
     private LandingPage landingPage;
-    private LoginPage loginPage;
+    private EntrarPage loginPage;
+
+    private ForgotPasswordPage forgotPasswordPage;
 
     public static Logger log = LogManager.getLogger(LoginTest.class.getName());
 
@@ -28,8 +32,10 @@ public class LoginTest extends Base {
     public void setUp() throws IOException {
         landingPage = new LandingPage();
         log.info("Instanciando page object: landing page");
-        loginPage = new LoginPage();
+        loginPage = new EntrarPage();
         log.info("Instanciando page object: login page");
+        forgotPasswordPage = new ForgotPasswordPage();
+        log.info("Instanciando page object: ForgotPassword");
         Configuration.browser = initializeProp("firefox");
         log.info("Configurando browser para abrir com firefox");
     }
@@ -54,6 +60,11 @@ public class LoginTest extends Base {
         log.info(text);
         loginPage.getBtnLogin().pressEnter();
         log.info("Apertando no botão de login");
+        loginPage.getBtnForgotPass().click();
+        Assert.assertTrue(forgotPasswordPage.getTituloReset().getText()
+                            .equalsIgnoreCase("Reset Password"));
+        forgotPasswordPage.getEnderecoEmailInput().setValue("email@email.com");
+        forgotPasswordPage.getBtnSendMeInstruction().click();
     }
 
     @DataProvider()

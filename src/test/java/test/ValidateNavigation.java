@@ -1,5 +1,6 @@
 package test;
 
+import base.Base;
 import com.codeborne.selenide.Configuration;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

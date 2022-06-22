@@ -1,4 +1,4 @@
-package test;
+package base;
 
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.Selenide;
@@ -25,10 +25,11 @@ public class Base {
         return prop.getProperty(propriedade);
     }
 
-    public void getScreenShotPath(String testCaseName) throws IOException {
+    public String getScreenShotPath(String testCaseName) throws IOException {
         File source = Selenide.screenshot(OutputType.FILE);
         String destinationFile = System.getProperty("user.dir") + "/reports/"+ testCaseName +".png";
         assert source != null;
         FileUtils.copyFile(source, new File(destinationFile));
+        return destinationFile;
     }
 }
